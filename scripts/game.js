@@ -124,7 +124,7 @@ var game = (function () {
 		
 				if (result && result === true && typeof result === 'boolean') {
 					var soundFxName = 'shoot' + ((pEvent.keyCode == 87) ? 'Water' : 'Fire');
-					//thatGame.sound.play(soundFxName);
+					thatGame.sound.play(soundFxName);
 					 if (thatGame.canvas.animatable === false) {
 					 	thatGame.canvas.animatable = true
 					 	thatGame.canvas.animate(true);
